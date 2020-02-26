@@ -2,19 +2,30 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', sans-serif;
+    font-size: 2rem;
 }
 
 h1 {
+    font-size: 5.625rem; /* Percent 90 / 16  * 100*/ /* size of letter M  */
     margin-top: 0;
     font-family: 'Sacramento', sans-serif;
+    margin: 50px auto 0 auto;
+    color: #66BFBF;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem; /* 40 target / 16 */
+    color: #66BFBF;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+.pro {
+    font-weight: normal;
 }
 
 .top-container {
@@ -24,15 +35,9 @@ h3 {
 }
 
 .middle-container {
-    background-color: red;
-    width: 200px;
-    height: 200px;
 }
 
 .bottom-container {
-    background-color: blue;
-    width: 200px;
-    height: 200px;
 }
 
 .top-cloud {
@@ -45,4 +50,24 @@ h3 {
     position: absolute;
     left: 300px;
     bottom: 300px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.skill-image {
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-image-2 {
+    float: right;
+    margin-left: 30px;
 }
